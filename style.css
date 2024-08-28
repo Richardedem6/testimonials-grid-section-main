@@ -6,7 +6,6 @@
 
 /*setting up colors and fonts*/
 :root{
-
     /*primary colors*/
 
     --Moderate-violet: hsl(263,55%,52%);
@@ -164,12 +163,12 @@
 @media (min-width: 1280px) {
   .container {
     width: 1180px;
-    margin: 50px auto;
+    margin-top: 70px;
   }
   .container .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px; 
+    grid-gap: 30px; 
   }
 
   .container .cards .card{
@@ -194,8 +193,7 @@
   .container .cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    
+    grid-gap: 25px;
   }
 
   .container .cards .card{
